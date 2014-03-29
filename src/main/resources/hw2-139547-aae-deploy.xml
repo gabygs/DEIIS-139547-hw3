@@ -24,8 +24,8 @@
 <analysisEngineDeploymentDescription 
   xmlns="http://uima.apache.org/resourceSpecifier">
   
-  <name>AAE DEPLOY</name>
-  <description>testE</description>
+  <name>AAE deployment</name>
+  <description>This descriptor will help deploying my aggregate analysis engine from homework 2 with UIMA-AS</description>
   
   <deployment protocol="jms" provider="activemq">
     <service>
