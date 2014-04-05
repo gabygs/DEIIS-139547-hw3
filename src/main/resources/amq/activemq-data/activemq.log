@@ -115,3 +115,16 @@ java.lang.IllegalStateException: Cannot remove a consumer from a connection that
 2014-03-28 19:46:08,528 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-57690-1396054668434-0:0) stopped
 2014-03-28 19:46:10,311 [Thread-3       ] INFO  TransportConnector             - Connector openwire Stopped
 2014-03-28 19:46:10,312 [Thread-3       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-57690-1396054668434-0:0) stopped
+2014-04-03 19:49:34,008 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2014-04-03 19:49:34,099 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2014-04-03 19:49:34,101 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2014-04-03 19:49:34,233 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2014-04-03 19:49:34,605 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://IBAGNOG.local:61616
+2014-04-03 19:49:34,606 [main           ] INFO  TransportConnector             - Connector openwire Started
+2014-04-03 19:49:34,609 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-63413-1396576174195-0:0) started
+2014-04-03 22:07:05,705 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-63413-1396576174195-0:0) is shutting down
+2014-04-03 22:07:05,706 [Thread-4       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-63413-1396576174195-0:0) is shutting down
+2014-04-03 22:07:05,708 [Thread-4       ] INFO  TransportConnector             - Connector openwire Stopped
+2014-04-03 22:07:05,774 [Thread-4       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-63413-1396576174195-0:0) stopped
+2014-04-03 22:07:05,990 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2014-04-03 22:07:05,990 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-63413-1396576174195-0:0) stopped

@@ -14,7 +14,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Fri Mar 28 19:27:15 CST 2014
+ * Updated by JCasGen Fri Apr 04 23:44:25 CST 2014
  * @generated */
 public class Token_Type extends Annotation_Type {
   /** @generated */
@@ -91,6 +91,78 @@ public class Token_Type extends Annotation_Type {
     ll_cas.ll_setIntValue(addr, casFeatCode_line_doc, v);}
     
   
+ 
+  /** @generated */
+  final Feature casFeat_POS;
+  /** @generated */
+  final int     casFeatCode_POS;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getPOS(int addr) {
+        if (featOkTst && casFeat_POS == null)
+      jcas.throwFeatMissing("POS", "edu.cmu.deiis.types.Token");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_POS);
+  }
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setPOS(int addr, String v) {
+        if (featOkTst && casFeat_POS == null)
+      jcas.throwFeatMissing("POS", "edu.cmu.deiis.types.Token");
+    ll_cas.ll_setStringValue(addr, casFeatCode_POS, v);}
+    
+  
+ 
+  /** @generated */
+  final Feature casFeat_lemma;
+  /** @generated */
+  final int     casFeatCode_lemma;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getLemma(int addr) {
+        if (featOkTst && casFeat_lemma == null)
+      jcas.throwFeatMissing("lemma", "edu.cmu.deiis.types.Token");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_lemma);
+  }
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setLemma(int addr, String v) {
+        if (featOkTst && casFeat_lemma == null)
+      jcas.throwFeatMissing("lemma", "edu.cmu.deiis.types.Token");
+    ll_cas.ll_setStringValue(addr, casFeatCode_lemma, v);}
+    
+  
+ 
+  /** @generated */
+  final Feature casFeat_namedEntity;
+  /** @generated */
+  final int     casFeatCode_namedEntity;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getNamedEntity(int addr) {
+        if (featOkTst && casFeat_namedEntity == null)
+      jcas.throwFeatMissing("namedEntity", "edu.cmu.deiis.types.Token");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_namedEntity);
+  }
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setNamedEntity(int addr, String v) {
+        if (featOkTst && casFeat_namedEntity == null)
+      jcas.throwFeatMissing("namedEntity", "edu.cmu.deiis.types.Token");
+    ll_cas.ll_setStringValue(addr, casFeatCode_namedEntity, v);}
+    
+  
 
 
 
@@ -107,6 +179,18 @@ public class Token_Type extends Annotation_Type {
  
     casFeat_line_doc = jcas.getRequiredFeatureDE(casType, "line_doc", "uima.cas.Integer", featOkTst);
     casFeatCode_line_doc  = (null == casFeat_line_doc) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_line_doc).getCode();
+
+ 
+    casFeat_POS = jcas.getRequiredFeatureDE(casType, "POS", "uima.cas.String", featOkTst);
+    casFeatCode_POS  = (null == casFeat_POS) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_POS).getCode();
+
+ 
+    casFeat_lemma = jcas.getRequiredFeatureDE(casType, "lemma", "uima.cas.String", featOkTst);
+    casFeatCode_lemma  = (null == casFeat_lemma) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_lemma).getCode();
+
+ 
+    casFeat_namedEntity = jcas.getRequiredFeatureDE(casType, "namedEntity", "uima.cas.String", featOkTst);
+    casFeatCode_namedEntity  = (null == casFeat_namedEntity) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_namedEntity).getCode();
 
   }
 }

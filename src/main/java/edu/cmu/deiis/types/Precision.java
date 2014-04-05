@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Fri Mar 28 19:27:15 CST 2014
+ * Updated by JCasGen Fri Apr 04 23:44:25 CST 2014
  * XML source: /Users/IBAGNOG/Documents/workspace/hw3-139547/src/main/resources/descriptors/deiis_types.xml
  * @generated */
 public class Precision extends Annotation {
@@ -77,7 +77,6 @@ public class Precision extends Annotation {
   //* Feature: precision
 
   /** getter for precision - gets Saves precision value.
-
    * @generated
    * @return value of the feature 
    */
@@ -86,8 +85,7 @@ public class Precision extends Annotation {
       jcasType.jcas.throwFeatMissing("precision", "edu.cmu.deiis.types.Precision");
     return jcasType.ll_cas.ll_getDoubleValue(addr, ((Precision_Type)jcasType).casFeatCode_precision);}
     
-  /** setter for precision - sets Saves precision value.
- 
+  /** setter for precision - sets Saves precision value. 
    * @generated
    * @param v value to set into the feature 
    */
